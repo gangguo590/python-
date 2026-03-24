@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(python -c \"import matplotlib; print\\(f''matplotlib 版本: {matplotlib.__version__}''\\); print\\(f''安装路径: {matplotlib.__file__}''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \"from matplotlib_inline import backend_inline; backend_inline.set_matplotlib_formats\\(''svg''\\); print\\(''成功''\\)\")",
+      "Bash(python matplotlib学习.py)"
+    ]
+  }
+}
