@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import torch; print\\(f''PyTorch 版本: {torch.__version__}''\\); print\\(f''CUDA 可用: {torch.cuda.is_available\\(\\)}''\\)\")"
+    ]
+  }
+}
